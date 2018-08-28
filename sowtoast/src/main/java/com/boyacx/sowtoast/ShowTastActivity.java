@@ -21,10 +21,11 @@ public class ShowTastActivity extends AppCompatActivity {
     /**
      * moudle 显示toast
      *
-     * @param tStr
+     * @param
      */
-    public void ShowToast(String tStr) {
-        Toast.makeText(mContext, "这个是lib moudle 显示的 toast：moudle", Toast.LENGTH_SHORT).show();
+    public void ShowToast() {
+        Toast.makeText(getApplicationContext(),
+                "这个是lib moudle 显示的 toast：moudle", Toast.LENGTH_SHORT).show();
 
     }
 
