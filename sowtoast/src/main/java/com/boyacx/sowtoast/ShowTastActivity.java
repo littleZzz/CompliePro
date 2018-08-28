@@ -23,8 +23,8 @@ public class ShowTastActivity extends AppCompatActivity {
      *
      * @param
      */
-    public void ShowToast() {
-        Toast.makeText(getApplicationContext(),
+    public void ShowToast(Context context) {
+        Toast.makeText(context,
                 "这个是lib moudle 显示的 toast：moudle", Toast.LENGTH_SHORT).show();
 
     }
